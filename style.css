@@ -1,7 +1,12 @@
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
-  line-height: 1;
+
+  background-image: url(leaves.jpg);
+  background-position: center;
+  background-size: 100%;
+
+  
 }
 
 textarea{
@@ -15,10 +20,21 @@ textarea{
 
 .jumbotron {
   text-align: center;
-  background-color: transparent;
-  color: black;
+  color: white;
   border-radius: 0;
-  border-bottom: 10px solid black;
+  background-image: url(tropical.jpg);
+  background-position: center;
+  height:300px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 100%;
+  
+
+}
+
+.container {
+  margin-top: auto;
+  padding-top: 0%;
 }
 
 .description{
@@ -37,6 +53,8 @@ textarea{
   white-space: pre-wrap;
   height: 80px;
   border-top: 1px solid white;;
+  
+  
 }
 
 .hour {
@@ -64,7 +82,7 @@ textarea{
   border-left: 1px solid black;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
-  background-color: #06AED5;
+  background-color: rgb(163, 199, 163);
   color: white;
 }
 
@@ -73,7 +91,5 @@ textarea{
   transition: all .3s ease-in-out;
 }
 
-.input-group-prepend {
-  color:skyblue
-  size: 30px;
-}
+
+
